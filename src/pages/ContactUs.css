@@ -1,0 +1,71 @@
+/* General container styling */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4B5563; /* Tailwind's text-gray-800 */
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 4rem 0;
+    background-color: white;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .contact-info .contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .contact-item .icon {
+    font-size: 2rem;
+    color: #ff0000; /* Tailwind's text-primary equivalent */
+  }
+  
+  .contact-text {
+    font-size: 1.125rem;
+    color: #4B5563; /* Tailwind's text-gray-700 */
+  }
+  
+  /* Map Section */
+  .map-section {
+    padding: 4rem 0;
+    background-color: #F3F4F6; /* Tailwind's bg-gray-100 */
+  }
+  
+  .map-container {
+    width: 100%;
+    height: 700px;
+  }
+  
+  /* Responsive Styling for Mobile and Tablet */
+  @media screen and (min-width: 768px) {
+    .contact-info {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .contact-info .contact-item {
+      flex-direction: row;
+    }
+  }
+  

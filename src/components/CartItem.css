@@ -1,0 +1,113 @@
+/* Cart Item Container */
+.cart-item {
+    display: flex;
+    gap: 16px;
+    padding: 12px 0;
+    border-bottom: 1px solid #E5E5E5;
+    font-family: Arial, sans-serif;
+    color: #4A4A4A;
+  }
+  
+  .cart-item-container {
+    display: flex;
+    width: 100%;
+    min-height: 150px;
+    align-items: center;
+  }
+  
+  .cart-item-image img {
+    width: 80px;
+    /* padding: 20px; */
+    margin-right: 30px;
+    margin-left: 30px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .cart-item-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .cart-item-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .cart-item-title {
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 240px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .cart-item-title:hover {
+    text-decoration: underline;
+  }
+  
+  .cart-item-remove {
+    cursor: pointer;
+    margin-right: 50px;
+    font-size: 20px;
+    color: #999;
+    transition: color 0.3s ease;
+  }
+  
+  .cart-item-remove:hover {
+    color: #FF4D4D;
+  }
+  
+  .cart-item-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .cart-item-quantity {
+    display: flex;
+    width: 100px;
+    height: 36px;
+    border: 1px solid #3b3b3b;
+    font-weight: 500;
+    color: #3b3b3b;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-item-quantity-btn {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cart-item-quantity-value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .cart-item-price {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4A4A4A;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .cart-item-total {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ef0a0a;
+    text-align: right;
+    width: 100px;
+  }
+  
